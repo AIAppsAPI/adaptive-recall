@@ -1,0 +1,13 @@
+{
+  "name": "adaptive-recall",
+  "description": "Adaptive memory system for AI applications. Multi-strategy retrieval, cognitive scoring, knowledge graph, and self-improving ML.",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://s1.adaptiverecall.com/mcp"
+  },
+  "homepage": "https://adaptiverecall.com",
+  "auth": {
+    "type": "bearer",
+    "instructions": "Sign up at https://adaptiverecall.com to get your API key."
+  }
+}

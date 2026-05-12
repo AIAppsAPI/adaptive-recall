@@ -1,0 +1,22 @@
+{
+  "name": "adaptive-recall",
+  "version": "1.0.0",
+  "description": "Adaptive memory system for AI applications. Multi-strategy retrieval, cognitive scoring, knowledge graph, and self-improving ML. Connects via MCP or REST API.",
+  "homepage": "https://adaptiverecall.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adaptiverecall/adaptive-recall"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "ai-tools",
+    "memory",
+    "knowledge-graph"
+  ],
+  "license": "MIT",
+  "author": "Adaptive Recall"
+}
