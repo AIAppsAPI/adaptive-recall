@@ -21,7 +21,7 @@ Sign up at [adaptiverecall.com](https://adaptiverecall.com/auth.php?action=signu
 
 ### MCP Configuration
 
-Add to your MCP client config (Claude Code, Cursor, or any MCP-compatible tool):
+Add to your MCP client config (Claude Code, Codex, Cursor, or any MCP-compatible tool):
 
 ```json
 {
@@ -37,7 +37,7 @@ Add to your MCP client config (Claude Code, Cursor, or any MCP-compatible tool):
 }
 ```
 
-For Claude Code, add this to `.mcp.json` in your project or `~/.claude/settings.json` for global access.
+For Claude Code, add this to `.mcp.json` in your project or `~/.claude/settings.json` for global access. For Gemini CLI, add to `~/.gemini/settings.json` using `httpUrl` instead of `url`. For Codex, add to your Codex MCP configuration.
 
 ### REST API
 
@@ -51,9 +51,9 @@ Every action is also available as an HTTP endpoint at `https://YOUR_SERVER_URL/v
 | **recall** | Search memories using multi-strategy retrieval with cognitive scoring. |
 | **update** | Modify an existing memory. Re-embeds automatically if content changes. |
 | **forget** | Remove a memory by ID or by finding the closest match to a query. |
-| **reflect** | Synthesize knowledge about a topic, identifying what is known and where gaps exist. |
 | **graph** | Explore the knowledge graph, traversing entity relationships by name and depth. |
 | **status** | System health, memory counts, confidence distribution, and knowledge gap detection. |
+| **snapshot** | Get a formatted overview of stored memories, organized by type. |
 | **feedback** | Send feedback directly to the Adaptive Recall developers. |
 
 ## Memory Types
@@ -72,7 +72,7 @@ When storing memories, assign a type that affects how the memory is managed:
 
 ## Pricing
 
-Free and paid tiers available. See [adaptiverecall.com](https://adaptiverecall.com/pricing.php) for details.
+Free, Starter, Pro, and Business plans available. See [adaptiverecall.com](https://adaptiverecall.com/pricing.php) for details.
 
 ## Links
 
