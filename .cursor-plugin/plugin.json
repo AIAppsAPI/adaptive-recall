@@ -1,0 +1,22 @@
+{
+  "name": "adaptive-recall",
+  "version": "1.0.1",
+  "description": "Adaptive memory system with cognitive scoring, knowledge graph, and self-improving ML.",
+  "author": "Adaptive Recall",
+  "homepage": "https://adaptiverecall.com",
+  "repository": "https://github.com/AIAppsAPI/adaptive-recall",
+  "keywords": [
+    "mcp",
+    "memory",
+    "knowledge-graph",
+    "cognitive-science",
+    "ai-tools"
+  ],
+  "mcp": {
+    "type": "url",
+    "url": "https://${ADAPTIVE_RECALL_SERVER_URL}/mcp",
+    "headers": {
+      "Authorization": "Bearer ${ADAPTIVE_RECALL_API_KEY}"
+    }
+  }
+}
