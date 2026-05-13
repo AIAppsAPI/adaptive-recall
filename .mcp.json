@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "adaptive-recall": {
+      "type": "url",
+      "url": "https://${ADAPTIVE_RECALL_SERVER_URL}/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ADAPTIVE_RECALL_API_KEY}"
+      }
+    }
+  }
+}
