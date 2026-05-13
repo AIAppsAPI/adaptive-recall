@@ -1,6 +1,7 @@
 {
   "name": "adaptive-recall",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.AIAppsAPI/adaptive-recall",
   "description": "Adaptive memory system for AI applications. Multi-strategy retrieval, cognitive scoring, knowledge graph, and self-improving ML. Connects via MCP or REST API.",
   "homepage": "https://adaptiverecall.com",
   "repository": {

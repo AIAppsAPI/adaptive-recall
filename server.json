@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.AIAppsAPI/adaptive-recall",
+  "description": "Adaptive memory system with cognitive scoring, knowledge graph, and self-improving ML.",
+  "repository": {
+    "url": "https://github.com/AIAppsAPI/adaptive-recall",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "adaptive-recall",
+      "version": "1.0.1",
+      "transport": {
+        "type": "streamable-http",
+        "url": "https://s1.adaptiverecall.com/mcp"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your Adaptive Recall API key (get one free at adaptiverecall.com)",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "ADAPTIVE_RECALL_API_KEY"
+        }
+      ]
+    }
+  ]
+}
