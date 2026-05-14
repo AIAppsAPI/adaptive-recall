@@ -1,4 +1,5 @@
 # Adaptive Recall
+[![MCPize](https://mcpize.com/badge/@paul.crinigan218/adaptive-recall)](https://mcpize.com/mcp/adaptive-recall)
 
 Adaptive memory system for AI applications. Patent pending.
 
@@ -14,6 +15,16 @@ Adaptive Recall is a hosted memory server that stores, retrieves, and manages lo
 - **Memory lifecycle**: memories progress through stages, gain or lose confidence based on corroborating evidence, and fade naturally when unused
 - **Self-improving**: ML models train on your usage patterns, every parameter change must pass statistical validation against real query history before being adopted
 - **Retrieval quality monitoring**: the system verifies its own retrieval consistency and identifies knowledge gaps
+
+## Connect via MCPize
+
+Use this MCP server instantly with no local installation:
+
+```bash
+npx -y mcpize connect @paul.crinigan218/adaptive-recall --client claude
+```
+
+Or connect at: **https://mcpize.com/mcp/adaptive-recall**
 
 ## Connect
 
